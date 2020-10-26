@@ -1,0 +1,33 @@
+.xo-container {
+    height: 450px
+}
+
+.xo-title {
+    text-align: center;
+    padding: 10px 0 30px 0;
+    text-transform: capitalize;
+}
+ 
+.xo-product-infos {
+    text-align: center;
+}
+ 
+.xo-product-title {
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+ 
+.xo-product-title:hover {
+    text-decoration: underline;
+}
+ 
+.xo-product-price {
+    font-style: italic;
+}
+ 
+.xo-product-image {
+    height: 200px;
+    margin: 0 auto;
+}

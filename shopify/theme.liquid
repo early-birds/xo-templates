@@ -15,18 +15,18 @@
   <script>
 	(function(w){
 		w._ebq = w._ebq || [];
-        w._ebq.push(['init', '5c9a01489e86575cf21fa1a2']);
-        var elt = document.createElement('script'); elt.type = 'text/javascript'; elt.async = true;
-        elt.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.early-birds.fr/tenants/demo-telephonie/earlybirds-full.min.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(elt, s);
+		w._ebq.push(['init', '5c9a01489e86575cf21fa1a2']);
+		var elt = document.createElement('script'); elt.type = 'text/javascript'; elt.async = true;
+		elt.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.early-birds.fr/tenants/demo-telephonie/earlybirds-full.min.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(elt, s);
 		var profile = {};
-          { profile.datasources = [{
-            id: '5c9a01489e86575b7e1fa1a3',
-            original_id: 13
-          }];
-          }
-     	w._ebq.push(['identify', profile]);
-    })(window);
+		  { profile.datasources = [{
+		    id: '5c9a01489e86575b7e1fa1a3',
+		    original_id: 13
+		  }];
+		  }
+     		w._ebq.push(['identify', profile]);
+	})(window);
   </script>
   {{ 's.css' | asset_url | stylesheet_tag }}
 

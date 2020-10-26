@@ -1,4 +1,4 @@
-# xo-templates
+# XO recommendations slider : basic  
 *Default templates for use with Attraqt's XO console*
 
 In the folder 'generic', you'll find the basic templates for a **4 products / 1 line basic widget**. 
